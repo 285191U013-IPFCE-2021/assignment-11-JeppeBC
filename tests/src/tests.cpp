@@ -16,6 +16,7 @@ TEST_CASE("sumtail")
     REQUIRE(sumtail(1,0)==1);
     REQUIRE(sumtail(4,0)==10);
     REQUIRE(sumtail(100,0)==5050);
+    REQUIRE(sumtail(40000,0)==800020000);
 }
 
 TEST_CASE("sumwhile")
@@ -24,6 +25,7 @@ TEST_CASE("sumwhile")
     REQUIRE(sumwhile(1)==1);
     REQUIRE(sumwhile(4)==10);
     REQUIRE(sumwhile(100)==5050);
+    REQUIRE(sumwhile(100000)==705082704);
 }
 
 TEST_CASE("sumn")
@@ -39,6 +41,7 @@ TEST_CASE("fib")
     REQUIRE(fib(1,1,1)==1);
     REQUIRE(fib(7,1,1)==13);
     REQUIRE(fib(19,1,1)==4181);
+    REQUIRE(fib(46,1,1)==1836311903);
 }
 
 
