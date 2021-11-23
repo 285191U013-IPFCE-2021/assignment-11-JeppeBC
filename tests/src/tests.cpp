@@ -25,7 +25,7 @@ TEST_CASE("sumwhile")
     REQUIRE(sumwhile(1)==1);
     REQUIRE(sumwhile(4)==10);
     REQUIRE(sumwhile(100)==5050);
-    REQUIRE(sumwhile(100000)==705082704);
+    REQUIRE(sumwhile(40000)==800020000);
 }
 
 TEST_CASE("sumn")
